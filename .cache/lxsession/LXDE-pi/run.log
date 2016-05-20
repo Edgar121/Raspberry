@@ -198,3 +198,9 @@ Lxkeymap autostart running...
 ** Message: Status changed to connecting
 ** Message: eth0: Configured 192.168.24.212/22
 ** Message: Status changed to connected
+
+(openbox:1123): GLib-CRITICAL **: Source ID 12 was not found when attempting to remove it
+
+(lxpanel:1128): Gtk-CRITICAL **: IA__gtk_misc_set_alignment: assertion 'GTK_IS_MISC (misc)' failed
+** Message: eth0: Link is down
+** Message: Status changed to disconnected

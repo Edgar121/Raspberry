@@ -715,3 +715,39 @@ clear
 sudo apt-get update && sudo apt-get upgrade
 sudo apt-get install python
 python -i
+sudo nano maze.py 
+python maze.py 
+sudo nano maze.py 
+git init
+git add .
+git commit -m "Second commit"
+git remote add anotherorigin https://github.com/Edgar121/Raspberry
+git push anotherorigin master
+python squirrel.py
+clear
+sudo git init
+git add .
+git commit -m "Second Commit"
+git remote add myorigin2 https://github.com/Edgar121/Raspberry
+git push myorigin2 master
+git pull
+sudo git init
+git pull
+git pull https://github.com/Edgar121/Raspberry
+git push myorigin2 master
+ls -l
+git add .
+mkdir sav
+cp *.py sav
+ls -l sav/
+pwd
+git pull https://github.com/Edgar121/Raspberry
+git commit
+git pull https://github.com/Edgar121/Raspberry
+cp sav/* .
+sudo cp sav/* .
+git commit
+git commit .
+git commit -m "2nd commit"
+git status
+git commit -a 
