@@ -160,6 +160,15 @@ def main():
 				player.changespeed(0,5)
 			   if event.key == pygame.K_DOWN:
 				player.changespeed(0,-5)
+			elif event.type == pygame.KEYUP
+			   if event.key == pygame.K_LEFT:
+			   	player.changespeed(0,0)
+			   if event.key == pygame.K_RIGHT:
+			   	player.changespeed(0,0)
+			   if event.key == pygame.K_UP):
+			   	player.changespeed(0,0)
+			   if event.key == pygame.K_DOWN:
+			   	player.changespeed(0,0)
 
 		player.move(current_room.wall_list)
 		
