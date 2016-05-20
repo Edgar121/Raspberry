@@ -1,16 +1,4 @@
 <html>
-<<<<<<< HEAD
-
-
-
-
-
-
-
-
-
-
-=======
 <head>
 <script>
 
@@ -28,7 +16,7 @@ function refreshPage()
 </canvas>
 
 
-
+<table>
 <?php 
 
 $mysqli = new mysqli("127.0.0.1", "root","root","temp");
@@ -43,7 +31,7 @@ if ($result!=null)
 {
 	while ($row = $result->fetch_row())
 	{
-		printf($row[0] . ", " . $row[1] . "<br>" );
+		printf("<tr><td>".$row[1] . "</td><td><img src=\"red-dot.png\" height=\"10\" width=\"" . $row[0]*3 . "\">$row[0]</td></tr>" );
 	}
 }
 else
@@ -54,5 +42,4 @@ printf("query failed.!");
 <button onclick="refreshPage()"> Update </button>
 
 </body>
->>>>>>> 800aa326ba46f3ea51bf7890867ba141f3414ce3
 </html>
