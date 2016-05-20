@@ -17,7 +17,7 @@ function loadGraph()
 
 	for (var i=0; i<temps.length; i++)
 	{
-
+		//change color of graph according to temperature
 		if (temps[i] > 70)
 		{
 		 ctx.fillStyle="#FF0000";
@@ -44,7 +44,7 @@ function loadGraph()
 
 
 function onLoad()
-{
+{// connect to databse 
 <?php
 	$mysqli = new mysqli("127.0.0.1", "root","root","temp");
 	if (mysqli_connect_errno())
