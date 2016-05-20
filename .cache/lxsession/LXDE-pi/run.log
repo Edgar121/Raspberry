@@ -192,3 +192,9 @@ Lxkeymap autostart running...
 ** Message: Status changed to connecting
 ** Message: eth0: Configured 192.168.24.212/22
 ** Message: Status changed to connected
+** Message: eth0: Link is down
+** Message: Status changed to disconnected
+** Message: eth0: Link is up, configuring
+** Message: Status changed to connecting
+** Message: eth0: Configured 192.168.24.212/22
+** Message: Status changed to connected
