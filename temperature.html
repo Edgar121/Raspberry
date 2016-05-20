@@ -1,0 +1,14 @@
+<html>
+<?php 
+
+$mysqli = new mysqli("127.0.0.1", "root","root","temp");
+$q = "select temperature,time from temperature order by time limit 10";
+$result = $mysqli_query($q);
+
+?>
+<body>
+printf($result);
+
+
+</body>
+</html>

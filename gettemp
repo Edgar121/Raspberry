@@ -1,0 +1,1 @@
+cat /sys/bus/w1/devices/28-00000620a483/w1_slave | grep "t=" | cut -d' ' -f10 | sed s/"t="//g > ~/temperature.txt

@@ -1,0 +1,11 @@
+jackd: no process found
+scsynth: no process found
+Cannot connect to server socket err = No such file or directory
+Cannot connect to server request channel
+jack server is not running or cannot be started
+ALSA: Cannot open PCM device alsa_pcm for capture. Falling back to playback-only mode
+Jack main caught signal 15
+Cannot write socket fd = 10 err = Broken pipe
+CheckRes error
+Could not write notification
+ClientNotify fails name = system notification = 1 val1 = 0 val2 = 0

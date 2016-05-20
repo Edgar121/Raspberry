@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'Aladin';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Aladin Regular'), local('Aladin-Regular'), url(http://fonts.gstatic.com/s/aladin/v5/Ocb0ua4SBKIPc1KGBBkxeOvvDin1pK8aKteLpeZ5c0A.ttf) format('truetype');
+}

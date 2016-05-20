@@ -1,0 +1,19 @@
+
+
+
+
+
+
+
+[GUI] - shutting down any old audio servers...
+[GUI] - booting live coding server
+[GUI] - using default editor colours
+[GUI] - starting UDP OSC Server on port 4558...
+[GUI] - UDP OSC Server ready and listening
+[GUI] - waiting for server to connect...
+[GUI] - server connection established
+[GUI] - loading workspaces
+[GUI] - saving workspaces
+[GUI] - asking server process to exit...
+[GUI] - server asked us to exit
+[GUI] - exiting. Cheerio :-)
